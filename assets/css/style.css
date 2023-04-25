@@ -1,3 +1,5 @@
+/* Code below element by element copied to understand structure */
+/* variables set for main colors of the webpage */
 :root {
     --outer-space: #33393f;
     --bright-turquoise: #2aefcb;
@@ -5,15 +7,19 @@
     --heliotrope: #e866ec; 
 }
 
+/* All items selected turn background turquoise and font outer-space with used variables */
 ::selection {
     background-color: var(--bright-turquoise);
     color: var(--outer-space);
 }
 
+/* Sets orientation for font size, 62.5% is 10px*/
 html{
     font-size: 62.5%;
 }
 
+/* font-family provides different options for variety of browsers or OS, font size 1.75 units of original size 1.75*10px,
+line-height of 1.5, general text color of gin and outerspace background for full page*/
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
@@ -23,6 +29,7 @@ body{
     background-color: var(--outer-space);
 }
 
+/* sets margin below header for the bottom of headers to 0.635*10px, heliotrope color, font-weight of 700, line-height of 1.1 */
 h1,
 h2,
 h3,
@@ -35,6 +42,7 @@ h6 {
     line-height: 1.1;
 }
 
+/* setting individual sizes for headings in sequential order, starting with h1 4rem and going 0.5rem down */
 h1 {
     font-size: 4rem;
 }
@@ -63,6 +71,7 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Setting font for code with first Consolas as priority */
 code {
     font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
     'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
@@ -70,6 +79,7 @@ code {
     monospace;
 }
 
+/* header element takes 96% of page width, margin top bottom 0 and on both sides auto to center, padding is 2.5rem, and element is centered */
 header {
     width: 96%;
     margin: 0 auto;
@@ -77,21 +87,25 @@ header {
     text-align: center;
 }
 
+/* specific page-title header has top and bottom padding of 1 and 1.2 on the sides, and font-size get´s changed to 4.5rem from 4rem */
 header h1.page-title {
     padding: 1rem 1.2rem;
     font-size: 4.5rem;
 }
 
+/* main element 96% of body width, margin top and bottom 2rem and auto on the sides to even sides out  */
 main {
     width: 96%;
     margin: 2rem auto;
 }
 
+/* margin on all sides of footer 1.5rem, footer is centered */
 footer {
     margin: 1.5rem;
     text-align: center;
 }
 
+/* main grid gets created with flexbox, wraps the whole content, displays as row layout, with offset of padding on right and left of card-column class*/
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -100,10 +114,13 @@ footer {
     margin-right: -1.5rem;
 }
 
+/* center content */
 .justify-center {
     justify-content: center;
 }
 
+/* each card-column grows and shrinks equally, base of 100% for mobile first-apporach, padding 1.5rem, with transition property--> flex basis changes smoothly with screensize change
+margin on bottom 1.5rem */
 .card-column {
     flex: 1 0 100%;
     padding: 1.5rem;
@@ -111,6 +128,9 @@ footer {
     margin-bottom: 1.5rem;
 }
 
+/* code-card are flebox itself to control content inside, displayed in a cplumn for mobile-first-apporach, start of main axis,
+100% min-height, padding of 2rem all around, color inside is heliotrope, cards outline is dashed, outline is also offset 2pc due to 2px size,
+outline is border outside of border, transition with slow-start-and-end of 0.5s when changing screen size  */
 .code-card {
     display: flex;
     flex-direction: column;
@@ -123,6 +143,9 @@ footer {
     transition: all 0.5s ease-in-out;
 }
 
+/* the card-header is specified, with relative position, sets it over the outline with margin on the top with -4rem, 
+background-color same as mainbackground, so outline not visible in place of heading, color of heading heliotrope,
+same color border as outline for heading, rounded up with border-radius and same transition property as code-card */
 .code-card .card-header {
     position: relative;
     margin: -4rem 0 1.5rem 0;
@@ -134,6 +157,8 @@ footer {
     transition: all 0.5s ease-in-out;
 }
 
+
+/* achieve glow inside and outside with box-shadow on set on all sides, with heliotrope as a color */
 .code-card:hover,
 .code-card:hover .card-header {
     box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
