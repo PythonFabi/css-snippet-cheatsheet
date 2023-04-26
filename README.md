@@ -14,7 +14,7 @@ Hover over each Code Card with your cursor to see a glowing effect and just clic
 
 ## Credits
 
-Code source from UofT (step-by step copied to understand html and css)
+Code source from UofT
 
 ## License
 
