@@ -19,7 +19,7 @@ Try it out!
 
 ## Credits
 
-Wireframe created in Google Slides: [Link to Wireframe](https://docs.google.com/presentation/d/1EwC86_h4LSQD2pup89qYOi52irNFfjH7WZxmZveGWi0/edit#slide=id.p)
+Wireframe created in Google Slides: [Link to Wireframe](https://docs.google.com/presentation/d/1EwC86_h4LSQD2pup89qYOi52irNFfjH7WZxmZveGWi0/edit?usp=sharing)
 Code solution provided by UofT as guidance
 
 ## License
