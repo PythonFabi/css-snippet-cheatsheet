@@ -12,8 +12,10 @@ N/A
 Hover over each Code Card with your cursor to see a glowing effect![hover-glow](https://user-images.githubusercontent.com/129299589/234443424-f1508c89-90d2-4e3f-903f-cc283561c090.png)
 
 and just click on the code, which automatically selects the code snippets for you to copy. Each Code Card gives you basic information on the provided code.              
-Try it out! ![code-select](https://user-images.githubusercontent.com/129299589/234443499-cc62bab7-8c2a-44ca-910b-366318ab2fb4.png)
+![code-select](https://user-images.githubusercontent.com/129299589/234443499-cc62bab7-8c2a-44ca-910b-366318ab2fb4.png)
 
+
+Try it out!
 
 ## Credits
 
