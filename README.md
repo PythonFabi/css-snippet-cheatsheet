@@ -19,7 +19,7 @@ Try it out!
 
 ## Credits
 
-Code source from UofT
+Code solution provided by UofT as guidance
 
 ## License
 
