@@ -21,6 +21,7 @@ Try it out!
 
 Wireframe created in Google Slides: [Link to Wireframe](https://docs.google.com/presentation/d/1EwC86_h4LSQD2pup89qYOi52irNFfjH7WZxmZveGWi0/edit?usp=sharing)
 Code solution provided by UofT as guidance
+[my email](fabianmelone.fw@gmail.com)
 
 ## License
 
